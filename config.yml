@@ -1,0 +1,68 @@
+# This is a sample config file....
+test:
+  seed: -2924375
+  rngSurface: 3
+  minSurface: 48
+  matSurface: GRASS
+  matSubSurface: DIRT
+  treeDensity: 5
+  limitXDistance: -1
+  limitZDistance: -1
+  layers:
+    item0:
+      block: DIRT
+      data: 0
+      pctGenerate: -1
+      pctAdjacent: 5
+      maxY: 48
+      minY: 32
+    item1:
+      block: STONE
+      data: 0
+      pctGenerate: -1
+      pctAdjacent: 10
+      maxY: 31
+      minY: 4
+    item2:
+      block: BEDROCK
+      data: 0
+      pctGenerate: -1
+      pctAdjacent: 15
+      maxY: 25
+      minY: 0
+  resources:
+    item0:
+      block: STONE
+      data: 5
+      pctGenerate: 5
+      pctAdjacent: 5
+      maxY: 48
+      minY: 10
+    item1:
+      block: GOLD_ORE
+      data: 0
+      pctGenerate: 10
+      pctAdjacent: 10
+      maxY: 48
+      minY: 10
+    item2:
+      block: COAL_ORE
+      data: 0
+      pctGenerate: 15
+      pctAdjacent: 15
+      maxY: 48
+      minY: 10
+    item3:
+      block: STONE
+      data: 1
+      pctGenerate: 20
+      pctAdjacent: 20
+      maxY: 48
+      minY: 10
+    item4:
+      block: STONE
+      data: 3
+      pctGenerate: 25
+      pctAdjacent: 25
+      maxY: 48
+      minY: 10

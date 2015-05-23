@@ -1,0 +1,12 @@
+name: MCGPLuSGen
+main: com.minecraftgates.plus.mcgplusgen.MCGPLuSGen
+author: Dwelfman 
+version: 0.1.0
+
+load: STARTUP
+depend: []
+
+commands:
+   mcgdist:
+      description: Count the block distribution in the current chunk.
+   
